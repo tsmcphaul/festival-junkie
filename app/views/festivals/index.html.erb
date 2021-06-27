@@ -1,0 +1,5 @@
+<h1>Festivals</h1>
+
+<% @festivals.each do |fest|%>
+    <%= link_to fest.title, festival_path(fest)%>
+    <% end %>
